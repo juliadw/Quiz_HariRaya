@@ -180,7 +180,7 @@ export const FONT_OVERLINE_SECONDARY = {
 
 export const FONT_BUTTON_PRIMARY = {
   fontFamily: FONT_SECONDARY_SEMIBOLD,
-  fontSize: FONT_SIZE_BODY2
+  fontSize: FONT_SIZE_CAPTION
 };
 
 export const FONT_BUTTON_SECONDARY = {
