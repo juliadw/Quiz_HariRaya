@@ -21,7 +21,7 @@ export default class App extends Component {
             <Text style={styles.SubTeory}>Tentang Aplikasi </Text>
             <Text style={styles.teory}>
               Aplikasi HariRayaku adalah sebuah aplikasi tentang Hari Raya Islam yang berisi kumpulan
-              soal-soal seputar Hari Raya Islam. Dengan aplikasi ini pengguna dapat menambah pemahaman tentang
+              soal-soal seputar Hari Rayya Islam. Dengan aplikasi ini pengguna dapat menambah pemahaman
               mengenai Hari Raya Islam. Aplikasi ini juga dilengkapi dengan materi pembahasan Hari Raya Islam,
               yaitu: {'\n'}
               1. Hari Raya Idul Fitri {'\n'}
@@ -91,7 +91,7 @@ export default class App extends Component {
                 </CardItem>
                 <CardItem style={styles.cardItem}>
                   <Body>
-                    <Text style={styles.titleBook}>Muhammad Yulza Putra Hazarin</Text>
+                    <Text style={styles.titleBook}>Muhammad Yulza Putra</Text>
                     <Text style={styles.page}>Content Reasercher</Text>
                   </Body>
                 </CardItem>

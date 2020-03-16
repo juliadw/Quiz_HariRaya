@@ -88,6 +88,9 @@ export default class Component extends React.Component {
   lesson = async () => {
     this.props.navigation.navigate('Lesson');
   };
+  quiz = async () => {
+    this.props.navigation.navigate('Quiz');
+  };
 
   render() {
     return (

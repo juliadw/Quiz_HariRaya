@@ -2,11 +2,12 @@ import { StyleSheet } from 'react-native';
 import {
   COLOR_WHITE,
   COLOR_BASE_CARD,
-  FONT_SIZE_CAPTION,
-  FONT_SIZE_TITLE,
-  FONT_SIZE_BODY2,
+  FONT_TITLE_PRIMARY,
+  FONT_OVERLINE_SECONDARY,
   COLOR_FONT_PRIMARY_MAIN,
-  FONT_SIZE_OVERLINE
+  FONT_SIZE_OVERLINE,
+  FONT_BUTTON_PRIMARY,
+  FONT_CAPTION_PRIMARY
 } from '../../styles';
 import { scale } from '../../utils/scaling';
 
@@ -27,12 +28,9 @@ const styles = StyleSheet.create({
     paddingVertical: 20
   },
   title: {
-    fontWeight: '600',
-    fontSize: FONT_SIZE_TITLE,
+    ...FONT_TITLE_PRIMARY,
     left: 26,
     paddingVertical: 10
-    // bottom: 20,
-    // top: 10
   },
   row: {
     left: 26,
@@ -66,17 +64,15 @@ const styles = StyleSheet.create({
     borderTopRightRadius: 20
   },
   subtitle: {
-    fontSize: FONT_SIZE_BODY2,
-    fontWeight: 'bold',
+    ...FONT_OVERLINE_SECONDARY,
     color: COLOR_FONT_PRIMARY_MAIN,
     left: 26,
     paddingTop: 5
     // top: 25
   },
   titleBook: {
-    fontSize: FONT_SIZE_CAPTION,
-    bottom: 15,
-    fontWeight: '600'
+    ...FONT_BUTTON_PRIMARY,
+    bottom: 15
   },
   page: {
     fontSize: FONT_SIZE_OVERLINE,
@@ -94,7 +90,8 @@ const styles = StyleSheet.create({
     fontWeight: '600',
     fontSize: 20,
     marginTop: 10
-  }
+  },
+  teory: { ...FONT_CAPTION_PRIMARY }
 });
 
 export default styles;
